@@ -29,7 +29,6 @@
   ol {
     list-style-type: none;
     margin: 0;
-    padding: 0;
   }
 
   a {
@@ -56,6 +55,8 @@
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: rgb(var(--iris));
   }
@@ -65,7 +66,7 @@
   }
 
   .logo-light {
-    color: rgb(var(--typo-light-pr));
+    color: rgb(var(--typo-light-sec));
   }
 
   .section-title {
@@ -74,6 +75,7 @@
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: rgb(var(--typo-dark-pr));
   }
 
@@ -88,10 +90,25 @@
     color: rgb(var(--navy-blue));
   }
 
+  .nav-link:hover,
+  .nav-link:focus {
+    color: rgb(var(--ocean));
+  }
+
   .contact-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
+
+  .contact-link:hover,
+  .contact-link:focus {
+    color: rgb(var(--ocean));
+  }
+
+  .contact {
+    font-style: normal;
+  }
+
 /* #endregion */
 
 
@@ -142,6 +159,10 @@
 /* #region Team */
   .section-team {
     background-color: rgb(var(--cloud));
+  }
+
+  .team-item {
+    background-color: rgb(var(--white));
   }
 
   .team-name {
