@@ -68,32 +68,25 @@
     color: rgb(var(--typo-light-pr));
   }
 
+  .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: rgb(var(--typo-dark-pr));
+  }
+
 /* #endregion */
 
 
 /* #region Header */
-  .header {
-    
-  }
-
-  .nav {}
-
-  .nav-list {}
-
-  .nav-item {}
-
   .nav-link {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: rgb(var(--navy-blue));
   }
-
-  .contact {}
-
-  .contact-list {}
-
-  .contact-item {}
 
   .contact-link {
     line-height: 1.5;
@@ -121,18 +114,16 @@
     letter-spacing: 0.04em;
     background-color: rgb(var(--iris));
     color: rgb(var(--typo-light-pr));
+  }
 
+  .btn:hover,
+  .btn:focus {
+    background-color: rgb(var(--ocean));
   }
 /* #endregion */
 
 
 /* #region Advantages */
-  .section {}
-
-  .adv-list {}
-
-  .adv-item {}
-
   .adv-title {
     font-weight: 500;
     font-size: 20px;
@@ -148,3 +139,55 @@
 /* #endregion */
 
 
+/* #region Team */
+  .section-team {
+    background-color: rgb(var(--cloud));
+  }
+
+  .team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: rgb(var(--typo-dark-pr));
+  }
+
+  .team-role {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+
+/* #endregion */
+
+
+/* #region Portfolio */
+  .portfolio-work-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: rgb(var(--typo-dark-pr));
+  }
+
+  .portfolio-work-type {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
+/* #endregion */
+
+
+/* #region Footer */
+  .footer {
+    background-color: rgb(var(--navy-blue));
+  }
+
+  .footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: rgb(var(--typo-light-sec));
+  }
+
+/* #endregion */
